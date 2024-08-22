@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header>    <!--aqui coloquei o cabecalho pra deixar aparente os links-->
+        <div>
+            <nav class="navegacao"> <!--usei a tag nav pra marcar que é uma navegacao entre paginas-->
+            <a href="#sobre" class="nav-button">SOBRE</a>
+            <a href="#portfolio" class="nav-button">PORTFÓLIO</a> 
+            <a href="#formacao" class="nav-button">FORMAÇÃO</a>
+            <a href="#contato" class="nav-button">CONTATO</a>
+        </nav>
+</header>
+    <h1 id="sobre" >Carlos Manfredi</h1> <!--um titulo com meu nome-->
+<div class="container">
+    <img class="imagem" src="myphoto.jpg" alt="minhafoto">
+    <p>Desenvolvo pequenos sites utilizando HTML e CSS. Estudante de Pedagogia e análise e desenvolvimento de sistemas em busca de uma oportunidade na area.<br> Sou uma pessoa com grande facilidade de aprendizado e com algumas experiencias ao longo da vida.
+        Meus Hobbies são ir pra academia e jogar no computador.
+    </p>
+</div>
+    <h1 id="portfolio" >PORTFÓLIO</h1>
+    <div class="projetos">
+    <a href="https://carlosmanfredi.github.io/calculadora/" class="button">Calculadora Simples</a> <br> <br> <br> 
+    <a href="https://www.espacovillegaseventos.com.br" class="button">Site de Casamento feito com Google</a>
+    </div>
+    <h1 id="formacao"  >FORMAÇÃO</h1>
+    <div class="container">
+    <img class="ifsp" src="ifsp png.png" alt="IFSP">
+    <p>IFSP - Pedagogia integrado com educação especial e Técnologica - 7 semestre</p>
+    </div>
+    <div class="container">
+    <img class="uninter"  src="uninter logo.png" alt="uninter">
+    <p>UNINTER - Analise e desenvolvimentode Sistemas 2 semestre</p>
+    </div>
+    <section class="formulario">
+        <h2 id="contato">CONTATO</h2>
+        <form class="formulario">
+            <input type="text" placeholder="Nome">
+           <input type="email" placeholder="email">
+           <input  class="mensagem" type="text" placeholder="mensagem">
+           <div>
+            <input type="button" value="Enviar">
+           </div>
+        </form>
+</section>
+<footer>
+    <h3>Desenvolvido por @carlosmanfredi</h3>
+</footer>
+</body>
+</html>
